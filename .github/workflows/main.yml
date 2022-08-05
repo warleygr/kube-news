@@ -35,6 +35,6 @@ jobs:
           push: true
           tags: |
             warleygr/kube-news:latest
-            warleygr/kube-news:${{bithub.run_number}}
+            warleygr/kube-news:${{github.run_number}}
         
         
